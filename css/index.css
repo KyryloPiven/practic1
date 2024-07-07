@@ -73,16 +73,26 @@ a {
 }
 /* =================== HEADER ================== */
 .header {
+  /* padding: 20px 0; */
 }
-.container {
+.header .container {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
 }
 .header-nav {
 }
 .header-list {
+  display: flex;
+  /* padding: 20px 0; */
 }
 .header-item {
 }
 .header-link {
+  padding: 20px 0;
+  display: block;
+}
+.header-link:hover {
+  color: red;
 }
